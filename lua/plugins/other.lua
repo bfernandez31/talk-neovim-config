@@ -100,21 +100,22 @@ return {
       },
     })
   end,
+  -- Préfixe <leader>o (= "other") pour ne pas entrer en conflit avec <leader>t (tests).
   keys = {
     {
-      "<leader>ta",
+      "<leader>oo",
       "<cmd>Other<cr>",
-      desc = "Go to alternate file (test/source)",
+      desc = "Fichier alterné (test/source)",
     },
     {
-      "<leader>tA",
+      "<leader>ov",
       "<cmd>OtherVSplit<cr>",
-      desc = "Go to alternate file in vsplit",
+      desc = "Fichier alterné (vsplit)",
     },
     {
-      "<leader>tS",
+      "<leader>os",
       "<cmd>OtherSplit<cr>",
-      desc = "Go to alternate file in split",
+      desc = "Fichier alterné (split)",
     },
   },
 }
